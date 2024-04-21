@@ -1,0 +1,64 @@
+/* background */
+body{
+    background-color:  lightskyblue;
+}
+
+/* color */
+.c1{
+   color: white;
+}
+
+h2{
+    color: white;
+    
+}
+ul, p{
+    color: blueviolet;
+}
+.DerechosAutor{
+    color: black;
+}
+
+.Titulo{
+    text-align: center;
+}
+
+.Imagen {
+    border: 1px solid black; /* borde */
+    border-radius: 50px; /* border-radius */
+    overflow: hidden;
+    text-align: center; 
+}
+
+.Imagen img {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin: auto; 
+    max-width: 100%; 
+    height: auto; 
+    
+}
+
+.home{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.in-flex{
+    flex: 1;
+    min-width: 250px;
+}
+
+.in-flex:first-child{
+    flex: 1;
+    padding: 25px;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+
+.in-flex div{
+    padding: 25px;
+    margin: 20px;
+}
+
